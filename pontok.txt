@@ -1,24 +1,13 @@
-1. forduló
+Összesítés:
 ------------
-Azolinho: 15
-Gabcsi: 15
-Gabi: 15
-Balu: 12
-Tommy: 12
-Totya: 12
-King Gabo: 9
-Tompinho: 9
-
-2. forduló
-------------
-Totya: 19
-Gabcsi: 17
-Tommy: 15
-Balu: 11
-Tompinho: 10
-King Gabo: 9
-Gabi: 8
-Azolinho: 4
+Gabcsi: 48
+Totya: 41
+Tommy: 35
+Gabi: 34
+Tompinho: 33
+Balu: 29
+Azolinho: 28
+King Gabo: 24
 
 3. forduló
 ------------
@@ -31,13 +20,24 @@ Tommy: 8
 Balu: 6
 King Gabo: 6
 
-Összesítés:
+2. forduló
 ------------
-Gabcsi: 48
-Totya: 41
-Tommy: 35
-Gabi: 34
-Tompinho: 33
-Balu: 29
-Azolinho: 28
-King Gabo: 24
+Totya: 19
+Gabcsi: 17
+Tommy: 15
+Balu: 11
+Tompinho: 10
+King Gabo: 9
+Gabi: 8
+Azolinho: 4
+
+1. forduló
+------------
+Azolinho: 15
+Gabcsi: 15
+Gabi: 15
+Balu: 12
+Tommy: 12
+Totya: 12
+King Gabo: 9
+Tompinho: 9
