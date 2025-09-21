@@ -59,22 +59,30 @@ logger.info(f"Found {len(rows)} rows to inspect.")
 
 i = 1
 skipped = 0
+match_ids = []  # store all matchdetail IDs here
 
 for row in rows:
     # Check if there’s a matchdetail link inside this row
     links = row.find_elements(By.CSS_SELECTOR, 'a[href*="matchdetail"]')
     if not links:
+        skipped += 1
         continue  # Skip rows without matchdetail links
 
+    # Extract ID (works whether absolute or relative URL)
+    match = re.search(r'id=(\d+)', href)
+    if match:
+        match_id = match.group(1)
+        match_ids.append(match_id)
+        logger.info(f"Row {i}: Found matchdetail id = {match_id}")
+ 
     # Find chevron inside the same row
     chevrons = row.find_elements(By.CSS_SELECTOR, "i.fa.fa-chevron-down, i.fa.fa-chevron-up")
     if not chevrons:
-        skipped += 1
         continue
 
     chevron = chevrons[0]  # take first chevron in that row
 
-    logger.info(f"Clicking chevron {i} in row containing matchdetail link...")
+    logger.info(f"Clicking chevron in row {i} with matchdetail id {match_id}...")
     i += 1
 
     try:
@@ -94,5 +102,13 @@ html = driver.page_source
 with open("page_actual.html", "w", encoding="utf-8") as f:
     f.write(html)
 
+
+# After loop — save IDs to a text file
+with open("match_ids.txt", "w") as f:
+    for mid in match_ids:
+        f.write(mid + "\n")
+
+logger.info(f"Saved {len(match_ids)} match IDs to match_ids.txt")
+
 driver.quit()
-print("HTML saved to page_actual.html")
+logger.info("HTML saved to page_actual.html")
