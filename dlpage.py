@@ -15,8 +15,8 @@ logger.setLevel(logging.INFO)
 
 # Formatter with milliseconds
 formatter = logging.Formatter(
-   '%(asctime)s.%(msecs)03d - %(message)s',  # add milliseconds separately
-   datefmt='%Y-%m-%d %H:%M:%S'
+    '%(asctime)s.%(msecs)03d - %(message)s',  # add milliseconds separately
+    datefmt='%Y-%m-%d %H:%M:%S'
 )
 
 # Handler for stdout
@@ -54,25 +54,39 @@ driver.find_element(By.NAME, "password").send_keys("Gevinet1" + Keys.RETURN)
 WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.ID, "details_3891")))
 logger.info("logged in")
 
-# 4. Click all chevron elements to expand details
-chevrons = driver.find_elements(By.CSS_SELECTOR, "i.fa.fa-chevron-down")
-print(f"Found {len(chevrons)} elements to expand.")
+rows = driver.find_elements(By.CSS_SELECTOR, "div.row")
+logger.info(f"Found {len(rows)} rows to inspect.")
 
 i = 1
-count = len(chevrons)
+skipped = 0
 
-for chevron in chevrons:
-    if i % 10 == 0 or i == count or i == 1:
-        print(f"Processing {i}/{count}...")
+for row in rows:
+    # Check if there’s a matchdetail link inside this row
+    links = row.find_elements(By.CSS_SELECTOR, 'a[href*="matchdetail"]')
+    if not links:
+        continue  # Skip rows without matchdetail links
+
+    # Find chevron inside the same row
+    chevrons = row.find_elements(By.CSS_SELECTOR, "i.fa.fa-chevron-down, i.fa.fa-chevron-up")
+    if not chevrons:
+        skipped += 1
+        continue
+
+    chevron = chevrons[0]  # take first chevron in that row
+
+    logger.info(f"Clicking chevron {i} in row containing matchdetail link...")
     i += 1
-    
+
     try:
         driver.execute_script("arguments[0].click();", chevron)
-        time.sleep(0.2)  # Small delay to allow content to expand
+        time.sleep(0.2)  # allow content to expand
     except Exception as e:
-        print(f"Failed to click an element: {e}")
+        logger.info(f"Failed to click chevron in row: {e}")
+
+logger.info(f"Not yet played matches: {skipped}")
 
 # Wait for all content to be fully visible
+logger.info("Waiting 3 sec for content ready")
 time.sleep(3)
 
 # 5. Save the fully expanded HTML
