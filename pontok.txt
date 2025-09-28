@@ -1,15 +1,26 @@
-Frissítve: 2025.09.21 22:21
+Frissítve: 2025.09.28 21:14
 
 Összesítés:
 ------------
-Totya: 74
-Gabcsi: 67
-Azolinho: 64
-Tommy: 60
-Tompinho: 58
-Gabi: 57
-Balu: 54
-King Gabo: 38
+Totya: 84
+Azolinho: 74
+Gabcsi: 71
+Gabi: 67
+Tommy: 67
+Tompinho: 67
+Balu: 58
+King Gabo: 43
+
+6. forduló
+------------
+Azolinho: 10
+Gabi: 10
+Totya: 10
+Tompinho: 9
+Tommy: 7
+King Gabo: 5
+Balu: 4
+Gabcsi: 4
 
 5. forduló
 ------------
