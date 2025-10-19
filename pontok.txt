@@ -1,15 +1,25 @@
-Frissítve: 2025.10.05 20:24
+Frissítve: 2025.10.19 11:16
 
 Összesítés:
 ------------
-Totya: 103
-Azolinho: 87
-Gabi: 87
-Tompinho: 83
-Gabcsi: 82
-Tommy: 80
-Balu: 76
+Totya: 113
+Azolinho: 101
+Gabi: 98
+Gabcsi: 95
+Tompinho: 93
+Tommy: 90
+Balu: 84
 King Gabo: 43
+
+8. forduló
+------------
+Azolinho: 14
+Gabcsi: 13
+Gabi: 11
+Tommy: 10
+Tompinho: 10
+Totya: 10
+Balu: 8
 
 7. forduló
 ------------
