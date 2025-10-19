@@ -9,6 +9,10 @@ import time
 import logging
 import sys
 import re
+import sqlite3
+
+conn = sqlite3.connect("mydata.db")
+cursor = conn.cursor()
 
 # Create a logger
 logger = logging.getLogger("my_logger")
@@ -58,9 +62,16 @@ logger.info("logged in")
 rows = driver.find_elements(By.CSS_SELECTOR, "div.row")
 logger.info(f"Found {len(rows)} rows to inspect.")
 
-i = 1
 skipped = 0
-match_ids = []  # store all matchdetail IDs here
+already_stored = 0
+newly_stored = 0
+
+# read all matchdetail data here
+conn = sqlite3.connect("result.sqlite")
+cursor = conn.cursor()
+cursor.execute("SELECT match_id FROM matches_played")
+data = cursor.fetchall()
+logger.info(f"{len(data)} rows read from database.")
 
 for row in rows:
     # Check if there’s a matchdetail link inside this row
@@ -76,20 +87,25 @@ for row in rows:
     match = re.search(r'id=(\d+)', href)
     if match:
         match_id = match.group(1)
-        if match_id in match_ids:
+        exists = any(databaserow[0] == match_id for databaserow in data)
+        if exists:
+            logger.info(f"Data for {match_id} already stored in database.")
+            already_stored += 1
             continue
-            
-        match_ids.append(match_id)
- 
+        
     # Find chevron inside the same row
     chevrons = row.find_elements(By.CSS_SELECTOR, "i.fa.fa-chevron-down, i.fa.fa-chevron-up")
     if not chevrons:
         continue
 
     chevron = chevrons[0]  # take first chevron in that row
+    logger.info(f"Clicking chevron with matchdetail id {match_id}...")
 
-    logger.info(f"Clicking chevron in row {i} with matchdetail id {match_id}...")
-    i += 1
+    # store new match id in memory and database
+    newly_stored += 1
+    data.append((match_id,))
+    cursor.execute("INSERT INTO matches_played (match_id) VALUES (?)", (match_id,))
+    conn.commit()
 
     try:
         driver.execute_script("arguments[0].click();", chevron)
@@ -97,7 +113,11 @@ for row in rows:
     except Exception as e:
         logger.info(f"Failed to click chevron in row: {e}")
 
+conn.close()
+
+logger.info(f"Newly stored: {newly_stored}")
 logger.info(f"Not yet played matches: {skipped}")
+logger.info(f"Already stored: {already_stored}")
 
 # Wait for all content to be fully visible
 logger.info("Waiting 3 sec for content ready")
@@ -108,13 +128,6 @@ html = driver.page_source
 with open("page_actual.html", "w", encoding="utf-8") as f:
     f.write(html)
 
-
-# After loop — save IDs to a text file
-with open("match_ids.txt", "w") as f:
-    for mid in match_ids:
-        f.write(mid + "\n")
-
-logger.info(f"Saved {len(match_ids)} match IDs to match_ids.txt")
 
 driver.quit()
 logger.info("HTML saved to page_actual.html")
