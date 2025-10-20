@@ -12,7 +12,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') Storing new data into db" >> /tmp/myscript.lo
 python3 storenewdata.py
 
 echo "$(date '+%Y-%m-%d %H:%M:%S') Generate pontok.txt" >> /tmp/myscript.log
-python3 storenewdata.py
+python3 generatepontok.py
 
 echo "$(date '+%Y-%m-%d %H:%M:%S') Committing" >> /tmp/myscript.log
 git add ../pontok.txt result.sqlite
