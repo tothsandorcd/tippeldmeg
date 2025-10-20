@@ -11,9 +11,6 @@ import sys
 import re
 import sqlite3
 
-conn = sqlite3.connect("mydata.db")
-cursor = conn.cursor()
-
 # Create a logger
 logger = logging.getLogger("my_logger")
 logger.setLevel(logging.INFO)
