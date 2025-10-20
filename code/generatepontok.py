@@ -39,11 +39,11 @@ def main():
         # Print header
         f.write("\n")  # blank line before summary
         f.write(f"Összesítés:\n")
-        f.write("-" * 14 + "\n")
+        f.write("-" * 13 + "\n")
 
         for user, total_points in rows:
             # Write row
-            f.write(f"{user:<9} {total_points:>4}\n")
+            f.write(f"{user:<9} {total_points:>3}\n")
 
         f.write("\n")  # blank line before rounds
 
@@ -66,10 +66,10 @@ def main():
                     f.write("\n")  # blank line between rounds
                 current_round = round_num
                 f.write(f"Forduló: {round_num}\n")
-                f.write("-" * 14 + "\n")
+                f.write("-" * 12 + "\n")
 
             # Write row
-            f.write(f"{user:<9} {total_points:>4}\n")
+            f.write(f"{user:<9} {total_points:>2}\n")
 
     print(f"Report written to {OUTPUT_FILE}")
 
