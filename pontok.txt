@@ -1,4 +1,4 @@
-Frissítve: 2025.10.20 02:36
+Frissítve: 2025.10.20 02:42
 
 Összesítés:
 -------------
@@ -11,7 +11,7 @@ Tommy      90
 Balu       84
 King Gabo  43
 
-Forduló: 8
+Forduló:   8
 ------------
 Azolinho  14
 Gabcsi    13
@@ -21,7 +21,7 @@ Tompinho  10
 Totya     10
 Balu       8
 
-Forduló: 7
+Forduló:   7
 ------------
 Gabi      20
 Totya     19
@@ -31,7 +31,7 @@ Tommy     13
 Tompinho  12
 Gabcsi    11
 
-Forduló: 6
+Forduló:   6
 ------------
 Tompinho  13
 Azolinho  10
@@ -42,7 +42,7 @@ Tommy      7
 King Gabo  5
 Gabcsi     4
 
-Forduló: 5
+Forduló:   5
 ------------
 Azolinho  16
 Gabi      15
@@ -52,7 +52,7 @@ Tommy     10
 Gabcsi     8
 Tompinho   5
 
-Forduló: 4
+Forduló:   4
 ------------
 Azolinho  20
 Tompinho  20
@@ -63,7 +63,7 @@ King Gabo 14
 Gabcsi    11
 Gabi       8
 
-Forduló: 3
+Forduló:   3
 ------------
 Gabcsi    16
 Tompinho  14
@@ -74,7 +74,7 @@ Tommy      8
 Balu       6
 King Gabo  6
 
-Forduló: 2
+Forduló:   2
 ------------
 Totya     19
 Gabcsi    17
@@ -85,7 +85,7 @@ King Gabo  9
 Gabi       8
 Azolinho   4
 
-Forduló: 1
+Forduló:   1
 ------------
 Azolinho  15
 Gabcsi    15
