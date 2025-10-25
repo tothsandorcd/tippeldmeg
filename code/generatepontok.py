@@ -65,7 +65,7 @@ def main():
                 if current_round is not None:
                     f.write("\n")  # blank line between rounds
                 current_round = round_num
-                f.write(f"Forduló: {round_num}\n")
+                f.write(f"Forduló: {round_num:>3}\n")
                 f.write("-" * 12 + "\n")
 
             # Write row
