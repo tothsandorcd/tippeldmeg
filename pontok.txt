@@ -1,15 +1,25 @@
-Frissítve: 2025.11.30 20:30
+Frissítve: 2025.12.03 00:03
 
 Összesítés:
 -------------
-Totya     189
-Gabi      169
-Tommy     161
-Azolinho  158
-Gabcsi    153
-Balu      142
-Tompinho  127
+Totya     192
+Gabi      171
+Tommy     166
+Azolinho  161
+Gabcsi    158
+Balu      144
+Tompinho  129
 King Gabo  43
+
+Forduló:  14
+------------
+Gabcsi     5
+Tommy      5
+Azolinho   3
+Totya      3
+Balu       2
+Gabi       2
+Tompinho   2
 
 Forduló:  13
 ------------
