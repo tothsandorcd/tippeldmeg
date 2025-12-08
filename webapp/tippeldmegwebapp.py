@@ -16,45 +16,48 @@ if not USERNAME or not PASSWORD_HASH:
 
 app = Flask(__name__)
 
-HTML = """
-<!doctype html>
-<html>
-  <body>
-    <h1>Run or Schedule Script</h1>
-    <form action="/run" method="post">
-      <label>Execution:</label><br>
-      <input type="radio" name="day_option" value="now" checked> Now (immediate)<br>
-      <input type="radio" name="day_option" value="Today"> Today<br>
-      <input type="radio" name="day_option" value="Mon"> Monday<br>
-      <input type="radio" name="day_option" value="Tue"> Tuesday<br>
-      <input type="radio" name="day_option" value="Wed"> Wednesday<br>
-      <input type="radio" name="day_option" value="Thu"> Thursday<br>
-      <input type="radio" name="day_option" value="Fri"> Friday<br>
-      <input type="radio" name="day_option" value="Sat"> Saturday<br>
-      <input type="radio" name="day_option" value="Sun"> Sunday<br><br>
-  
-      <label>Hour (0-23):</label>
-      <select name="hour">
-"""
+def getStartPage():
+   HTML = """
+   <!doctype html>
+   <html>
+     <body>
+      <h1>Run or Schedule Script</h1>
+      <form action="/run" method="post">
+        <label>Execution:</label><br>
+        <input type="radio" name="day_option" value="now" checked> Now (immediate)<br>
+        <input type="radio" name="day_option" value="Today"> Today<br>
+        <input type="radio" name="day_option" value="Mon"> Monday<br>
+        <input type="radio" name="day_option" value="Tue"> Tuesday<br>
+        <input type="radio" name="day_option" value="Wed"> Wednesday<br>
+        <input type="radio" name="day_option" value="Thu"> Thursday<br>
+        <input type="radio" name="day_option" value="Fri"> Friday<br>
+        <input type="radio" name="day_option" value="Sat"> Saturday<br>
+        <input type="radio" name="day_option" value="Sun"> Sunday<br><br>
+     
+        <label>Hour (0-23):</label>
+        <select name="hour">
+   """
 
-for h in range(24):
-  HTML += f'            <option value="{h:02d}:02">{h:02d}:02</option>\n'
+   for h in range(24):
+     HTML += f'            <option value="{h:02d}:02">{h:02d}:02</option>\n'
 
-HTML += """
-      </select><br><br>
-      <button type="submit">Schedule/Run Script</button>
-    </form>
-    <br><br>"""
+   HTML += """
+        </select><br><br>
+        <button type="submit">Schedule/Run Script</button>
+      </form>
+      <br><br>"""
 
-result = subprocess.run(["atq"], capture_output=True, text=True)
+   result = subprocess.run(["atq"], capture_output=True, text=True)
 
-HTML += f"schedules: {result.stdout}\n{result.stderr}"
+   HTML += f"schedules: <br>{result.stdout} {result.stderr}".replace('\n', '<br>')
 
-HTML += """
-    <br>
-  </body>
-</html>
-"""
+   HTML += """
+      <br>
+     </body>
+   </html>
+   """
+   
+   return HTML
 
 def authenticate():
     return Response("Authentication required", 401,
@@ -68,7 +71,7 @@ def require_auth():
 
 @app.route("/")
 def index():
-    return render_template_string(HTML)
+    return render_template_string(getStartPage())
 
 @app.route("/run", methods=["POST"])
 def run_script():
@@ -88,7 +91,7 @@ def run_script():
                   else:
                         result = subprocess.run([f'echo "cd /home/sasa/Documents/repo/tippeldmeg/webapp && ./myscript.sh >> myscript.log 2>&1" | at {hour} {day_option}'], shell=True, capture_output=True, text=True)
 #                        result = subprocess.run([f'echo "cd /home/sasa/Documents/repo/tippeldmeg/webapp && date >> myscript.log" | at {hour} {day_option}'], shell=True, capture_output=True, text=True)
-                        return f"<h2>Scheduled today:</h2><pre>{hour}. Result {result}\n</pre>"
+                        return f"<h2>Scheduled:</h2><pre>{hour} {day_option}. Result {result}\n</pre>"
 
 
 if __name__ == "__main__":
