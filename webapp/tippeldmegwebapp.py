@@ -2,6 +2,8 @@ from flask import Flask, request, render_template_string, Response
 from werkzeug.security import check_password_hash
 from dotenv import load_dotenv
 import os
+import subprocess
+
 
 # Load environment variables
 load_dotenv(".env")
@@ -42,6 +44,14 @@ HTML += """
       </select><br><br>
       <button type="submit">Schedule/Run Script</button>
     </form>
+    <br><br>"""
+
+result = subprocess.run(["atq"], capture_output=True, text=True)
+
+HTML += f"schedules: {result.stdout}\n{result.stderr}"
+
+HTML += """
+    <br>
   </body>
 </html>
 """
@@ -62,7 +72,6 @@ def index():
 
 @app.route("/run", methods=["POST"])
 def run_script():
-    import subprocess
 
     day_option = request.form.get("day_option")
     hour = request.form.get("hour")
