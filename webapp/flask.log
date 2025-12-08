@@ -1,0 +1,28 @@
+nohup: ignoring input
+ * Serving Flask app 'tippeldmegwebapp'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on https://127.0.0.1:21407
+ * Running on https://192.168.3.88:21407
+Press CTRL+C to quit
+192.168.3.109 - - [06/Dec/2025 19:30:08] "GET / HTTP/1.1" 401 -
+192.168.3.109 - - [06/Dec/2025 19:30:18] "GET / HTTP/1.1" 200 -
+192.168.3.6 - - [06/Dec/2025 20:05:37] "GET / HTTP/1.1" 401 -
+192.168.3.6 - - [06/Dec/2025 20:05:41] "GET / HTTP/1.1" 401 -
+192.168.3.6 - - [06/Dec/2025 20:05:41] "GET /favicon.ico HTTP/1.1" 401 -
+85.66.212.96 - - [06/Dec/2025 20:22:52] "GET / HTTP/1.1" 401 -
+85.66.212.96 - - [06/Dec/2025 20:22:58] "GET / HTTP/1.1" 401 -
+85.66.212.96 - - [06/Dec/2025 20:22:59] "GET /favicon.ico HTTP/1.1" 401 -
+85.66.212.96 - - [06/Dec/2025 22:57:04] "GET / HTTP/1.1" 401 -
+85.66.212.96 - - [06/Dec/2025 22:57:14] "GET / HTTP/1.1" 401 -
+85.66.212.96 - - [06/Dec/2025 22:57:25] "GET / HTTP/1.1" 200 -
+85.66.212.96 - - [06/Dec/2025 22:57:25] "GET /favicon.ico HTTP/1.1" 404 -
+85.66.212.96 - - [06/Dec/2025 22:58:52] "POST /run HTTP/1.1" 200 -
+85.66.212.96 - - [07/Dec/2025 20:14:29] "GET / HTTP/1.1" 401 -
+85.66.212.96 - - [07/Dec/2025 20:14:41] "GET / HTTP/1.1" 200 -
+85.66.212.96 - - [07/Dec/2025 20:14:41] "GET /favicon.ico HTTP/1.1" 404 -
+85.66.212.96 - - [07/Dec/2025 20:16:22] "POST /run HTTP/1.1" 200 -
+192.168.3.109 - - [08/Dec/2025 12:37:45] "GET / HTTP/1.1" 401 -
+192.168.3.109 - - [08/Dec/2025 12:38:02] "GET / HTTP/1.1" 200 -
+192.168.3.109 - - [08/Dec/2025 12:38:02] "GET /favicon.ico HTTP/1.1" 404 -

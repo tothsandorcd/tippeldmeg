@@ -1,0 +1,348 @@
+2025-12-08 11:52:00 Starting script
+2025-12-08 11:52:00 Starting page download
+2025-12-08 11:52:00.387 - Download script started
+2025-12-08 11:52:02.019 - webdriver started
+2025-12-08 11:52:18.772 - logged in
+2025-12-08 11:52:19.837 - Found 2086 rows to inspect.
+2025-12-08 11:52:19.839 - 149 rows read from database.
+2025-12-08 11:52:20.069 - Data for 3512 already stored in database.
+2025-12-08 11:52:20.295 - Data for 3512 already stored in database.
+2025-12-08 11:52:20.517 - Data for 3513 already stored in database.
+2025-12-08 11:52:20.737 - Data for 3514 already stored in database.
+2025-12-08 11:52:20.953 - Data for 3515 already stored in database.
+2025-12-08 11:52:21.165 - Data for 3516 already stored in database.
+2025-12-08 11:52:21.383 - Data for 3517 already stored in database.
+2025-12-08 11:52:21.592 - Data for 3519 already stored in database.
+2025-12-08 11:52:21.802 - Data for 3518 already stored in database.
+2025-12-08 11:52:22.015 - Data for 3520 already stored in database.
+2025-12-08 11:52:22.228 - Data for 3521 already stored in database.
+2025-12-08 11:52:22.439 - Data for 3528 already stored in database.
+2025-12-08 11:52:22.648 - Data for 3529 already stored in database.
+2025-12-08 11:52:22.858 - Data for 3531 already stored in database.
+2025-12-08 11:52:23.069 - Data for 3523 already stored in database.
+2025-12-08 11:52:23.283 - Data for 3526 already stored in database.
+2025-12-08 11:52:23.492 - Data for 3525 already stored in database.
+2025-12-08 11:52:23.701 - Data for 3527 already stored in database.
+2025-12-08 11:52:23.911 - Data for 3530 already stored in database.
+2025-12-08 11:52:24.126 - Data for 3524 already stored in database.
+2025-12-08 11:52:24.335 - Data for 3522 already stored in database.
+2025-12-08 11:52:24.544 - Data for 3536 already stored in database.
+2025-12-08 11:52:24.754 - Data for 3535 already stored in database.
+2025-12-08 11:52:24.964 - Data for 3541 already stored in database.
+2025-12-08 11:52:25.177 - Data for 3533 already stored in database.
+2025-12-08 11:52:25.389 - Data for 3532 already stored in database.
+2025-12-08 11:52:25.650 - Data for 3538 already stored in database.
+2025-12-08 11:52:25.859 - Data for 3537 already stored in database.
+2025-12-08 11:52:26.070 - Data for 3539 already stored in database.
+2025-12-08 11:52:26.280 - Data for 3534 already stored in database.
+2025-12-08 11:52:26.488 - Data for 3540 already stored in database.
+2025-12-08 11:52:26.699 - Data for 3545 already stored in database.
+2025-12-08 11:52:26.910 - Data for 3550 already stored in database.
+2025-12-08 11:52:27.123 - Data for 3547 already stored in database.
+2025-12-08 11:52:27.335 - Data for 3544 already stored in database.
+2025-12-08 11:52:27.546 - Data for 3542 already stored in database.
+2025-12-08 11:52:27.758 - Data for 3543 already stored in database.
+2025-12-08 11:52:27.974 - Data for 3548 already stored in database.
+2025-12-08 11:52:28.184 - Data for 3551 already stored in database.
+2025-12-08 11:52:28.373 - Data for 3546 already stored in database.
+2025-12-08 11:52:28.582 - Data for 3549 already stored in database.
+2025-12-08 11:52:28.777 - Data for 3556 already stored in database.
+2025-12-08 11:52:28.983 - Data for 3560 already stored in database.
+2025-12-08 11:52:29.193 - Data for 3559 already stored in database.
+2025-12-08 11:52:29.395 - Data for 3558 already stored in database.
+2025-12-08 11:52:29.595 - Data for 3555 already stored in database.
+2025-12-08 11:52:29.776 - Data for 3552 already stored in database.
+2025-12-08 11:52:29.944 - Data for 3554 already stored in database.
+2025-12-08 11:52:30.153 - Data for 3561 already stored in database.
+2025-12-08 11:52:30.362 - Data for 3553 already stored in database.
+2025-12-08 11:52:30.571 - Data for 3557 already stored in database.
+2025-12-08 11:52:30.766 - Data for 3568 already stored in database.
+2025-12-08 11:52:30.956 - Data for 3569 already stored in database.
+2025-12-08 11:52:31.140 - Data for 3567 already stored in database.
+2025-12-08 11:52:31.309 - Data for 3566 already stored in database.
+2025-12-08 11:52:31.513 - Data for 3565 already stored in database.
+2025-12-08 11:52:31.711 - Data for 3570 already stored in database.
+2025-12-08 11:52:31.910 - Data for 3564 already stored in database.
+2025-12-08 11:52:32.129 - Data for 3571 already stored in database.
+2025-12-08 11:52:32.280 - Data for 3562 already stored in database.
+2025-12-08 11:52:32.475 - Data for 3563 already stored in database.
+2025-12-08 11:52:32.684 - Data for 3574 already stored in database.
+2025-12-08 11:52:32.906 - Data for 3580 already stored in database.
+2025-12-08 11:52:33.017 - Data for 3572 already stored in database.
+2025-12-08 11:52:33.208 - Data for 3576 already stored in database.
+2025-12-08 11:52:33.417 - Data for 3578 already stored in database.
+2025-12-08 11:52:33.591 - Data for 3581 already stored in database.
+2025-12-08 11:52:33.782 - Data for 3573 already stored in database.
+2025-12-08 11:52:33.978 - Data for 3577 already stored in database.
+2025-12-08 11:52:34.187 - Data for 3575 already stored in database.
+2025-12-08 11:52:34.392 - Data for 3579 already stored in database.
+2025-12-08 11:52:34.601 - Data for 3590 already stored in database.
+2025-12-08 11:52:34.804 - Data for 3591 already stored in database.
+2025-12-08 11:52:35.015 - Data for 3589 already stored in database.
+2025-12-08 11:52:35.225 - Data for 3588 already stored in database.
+2025-12-08 11:52:35.434 - Data for 3587 already stored in database.
+2025-12-08 11:52:35.640 - Data for 3584 already stored in database.
+2025-12-08 11:52:35.835 - Data for 3582 already stored in database.
+2025-12-08 11:52:36.042 - Data for 3585 already stored in database.
+2025-12-08 11:52:36.253 - Data for 3583 already stored in database.
+2025-12-08 11:52:36.465 - Data for 3586 already stored in database.
+2025-12-08 11:52:36.672 - Data for 3600 already stored in database.
+2025-12-08 11:52:36.885 - Data for 3593 already stored in database.
+2025-12-08 11:52:37.074 - Data for 3598 already stored in database.
+2025-12-08 11:52:37.259 - Data for 3592 already stored in database.
+2025-12-08 11:52:37.379 - Data for 3599 already stored in database.
+2025-12-08 11:52:37.558 - Data for 3601 already stored in database.
+2025-12-08 11:52:37.719 - Data for 3596 already stored in database.
+2025-12-08 11:52:37.896 - Data for 3595 already stored in database.
+2025-12-08 11:52:38.075 - Data for 3594 already stored in database.
+2025-12-08 11:52:38.275 - Data for 3597 already stored in database.
+2025-12-08 11:52:38.488 - Data for 3610 already stored in database.
+2025-12-08 11:52:38.682 - Data for 3609 already stored in database.
+2025-12-08 11:52:38.881 - Data for 3608 already stored in database.
+2025-12-08 11:52:39.092 - Data for 3602 already stored in database.
+2025-12-08 11:52:39.286 - Data for 3604 already stored in database.
+2025-12-08 11:52:39.498 - Data for 3605 already stored in database.
+2025-12-08 11:52:39.702 - Data for 3603 already stored in database.
+2025-12-08 11:52:39.889 - Data for 3606 already stored in database.
+2025-12-08 11:52:40.080 - Data for 3607 already stored in database.
+2025-12-08 11:52:40.305 - Data for 3611 already stored in database.
+2025-12-08 11:52:40.431 - Data for 3613 already stored in database.
+2025-12-08 11:52:40.597 - Data for 3612 already stored in database.
+2025-12-08 11:52:40.804 - Data for 3614 already stored in database.
+2025-12-08 11:52:41.004 - Data for 3621 already stored in database.
+2025-12-08 11:52:41.207 - Data for 3615 already stored in database.
+2025-12-08 11:52:41.386 - Data for 3617 already stored in database.
+2025-12-08 11:52:41.593 - Data for 3618 already stored in database.
+2025-12-08 11:52:41.774 - Data for 3619 already stored in database.
+2025-12-08 11:52:41.986 - Data for 3620 already stored in database.
+2025-12-08 11:52:42.196 - Data for 3616 already stored in database.
+2025-12-08 11:52:42.406 - Data for 3629 already stored in database.
+2025-12-08 11:52:42.616 - Data for 3630 already stored in database.
+2025-12-08 11:52:42.826 - Data for 3627 already stored in database.
+2025-12-08 11:52:43.026 - Data for 3626 already stored in database.
+2025-12-08 11:52:43.213 - Data for 3625 already stored in database.
+2025-12-08 11:52:43.424 - Data for 3624 already stored in database.
+2025-12-08 11:52:43.621 - Data for 3623 already stored in database.
+2025-12-08 11:52:43.840 - Data for 3631 already stored in database.
+2025-12-08 11:52:43.955 - Data for 3628 already stored in database.
+2025-12-08 11:52:44.140 - Data for 3622 already stored in database.
+2025-12-08 11:52:44.350 - Data for 3641 already stored in database.
+2025-12-08 11:52:44.559 - Data for 3638 already stored in database.
+2025-12-08 11:52:44.763 - Data for 3636 already stored in database.
+2025-12-08 11:52:44.969 - Data for 3632 already stored in database.
+2025-12-08 11:52:45.159 - Data for 3633 already stored in database.
+2025-12-08 11:52:45.369 - Data for 3637 already stored in database.
+2025-12-08 11:52:45.580 - Data for 3634 already stored in database.
+2025-12-08 11:52:45.786 - Data for 3639 already stored in database.
+2025-12-08 11:52:45.979 - Data for 3640 already stored in database.
+2025-12-08 11:52:46.189 - Data for 3635 already stored in database.
+2025-12-08 11:52:46.375 - Data for 3645 already stored in database.
+2025-12-08 11:52:46.577 - Data for 3644 already stored in database.
+2025-12-08 11:52:46.781 - Data for 3643 already stored in database.
+2025-12-08 11:52:46.938 - Data for 3650 already stored in database.
+2025-12-08 11:52:47.148 - Data for 3649 already stored in database.
+2025-12-08 11:52:47.352 - Data for 3648 already stored in database.
+2025-12-08 11:52:47.560 - Data for 3646 already stored in database.
+2025-12-08 11:52:47.754 - Data for 3647 already stored in database.
+2025-12-08 11:52:47.930 - Data for 3651 already stored in database.
+2025-12-08 11:52:48.084 - Data for 3642 already stored in database.
+2025-12-08 11:52:48.282 - Data for 3661 already stored in database.
+2025-12-08 11:52:48.480 - Data for 3658 already stored in database.
+2025-12-08 11:52:48.689 - Data for 3657 already stored in database.
+2025-12-08 11:52:48.887 - Data for 3656 already stored in database.
+2025-12-08 11:52:49.089 - Data for 3653 already stored in database.
+2025-12-08 11:52:49.260 - Data for 3652 already stored in database.
+2025-12-08 11:52:49.468 - Data for 3660 already stored in database.
+2025-12-08 11:52:49.673 - Data for 3659 already stored in database.
+2025-12-08 11:52:49.859 - Data for 3654 already stored in database.
+2025-12-08 11:53:24.302 - Newly stored: 0
+2025-12-08 11:53:24.303 - Not yet played matches: 1936
+2025-12-08 11:53:24.303 - Already stored: 150
+2025-12-08 11:53:24.304 - Waiting 3 sec for content ready
+2025-12-08 11:53:28.194 - HTML saved to page_actual.html
+2025-12-08 11:53:28 Storing new data into db
+newly added records: 0
+2025-12-08 11:53:28 Generate pontok.txt
+Report written to ../pontok.txt
+2025-12-08 11:53:28 Committing
+[main 7b4f8f6] 2025-12-08 11:53:28
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+2025-12-08 11:53:28 Pushing
+2025-12-08 11:53:30 Execution finished
+Mon Dec  8 13:10:04 CET 2025
+Mon Dec  8 13:10:22 CET 2025
+Mon Dec  8 13:10:26 CET 2025
+Mon Dec  8 13:13:35 CET 2025
+2025-12-08 13:39:00 Starting script
+2025-12-08 13:39:00 Starting page download
+2025-12-08 13:39:00.381 - Download script started
+2025-12-08 13:39:01.975 - webdriver started
+2025-12-08 13:39:15.588 - logged in
+2025-12-08 13:39:15.965 - Found 2086 rows to inspect.
+2025-12-08 13:39:15.967 - 149 rows read from database.
+2025-12-08 13:39:16.275 - Data for 3512 already stored in database.
+2025-12-08 13:39:16.398 - Data for 3512 already stored in database.
+2025-12-08 13:39:16.593 - Data for 3513 already stored in database.
+2025-12-08 13:39:16.757 - Data for 3514 already stored in database.
+2025-12-08 13:39:16.968 - Data for 3515 already stored in database.
+2025-12-08 13:39:17.173 - Data for 3516 already stored in database.
+2025-12-08 13:39:17.381 - Data for 3517 already stored in database.
+2025-12-08 13:39:17.558 - Data for 3519 already stored in database.
+2025-12-08 13:39:17.701 - Data for 3518 already stored in database.
+2025-12-08 13:39:17.910 - Data for 3520 already stored in database.
+2025-12-08 13:39:18.122 - Data for 3521 already stored in database.
+2025-12-08 13:39:18.321 - Data for 3528 already stored in database.
+2025-12-08 13:39:18.531 - Data for 3529 already stored in database.
+2025-12-08 13:39:18.745 - Data for 3531 already stored in database.
+2025-12-08 13:39:18.954 - Data for 3523 already stored in database.
+2025-12-08 13:39:19.145 - Data for 3526 already stored in database.
+2025-12-08 13:39:19.338 - Data for 3525 already stored in database.
+2025-12-08 13:39:19.542 - Data for 3527 already stored in database.
+2025-12-08 13:39:19.756 - Data for 3530 already stored in database.
+2025-12-08 13:39:19.951 - Data for 3524 already stored in database.
+2025-12-08 13:39:20.152 - Data for 3522 already stored in database.
+2025-12-08 13:39:20.357 - Data for 3536 already stored in database.
+2025-12-08 13:39:20.547 - Data for 3535 already stored in database.
+2025-12-08 13:39:20.754 - Data for 3541 already stored in database.
+2025-12-08 13:39:20.953 - Data for 3533 already stored in database.
+2025-12-08 13:39:21.154 - Data for 3532 already stored in database.
+2025-12-08 13:39:21.344 - Data for 3538 already stored in database.
+2025-12-08 13:39:21.551 - Data for 3537 already stored in database.
+2025-12-08 13:39:21.758 - Data for 3539 already stored in database.
+2025-12-08 13:39:21.980 - Data for 3534 already stored in database.
+2025-12-08 13:39:22.110 - Data for 3540 already stored in database.
+2025-12-08 13:39:22.238 - Data for 3545 already stored in database.
+2025-12-08 13:39:22.429 - Data for 3550 already stored in database.
+2025-12-08 13:39:22.639 - Data for 3547 already stored in database.
+2025-12-08 13:39:22.845 - Data for 3544 already stored in database.
+2025-12-08 13:39:23.045 - Data for 3542 already stored in database.
+2025-12-08 13:39:23.228 - Data for 3543 already stored in database.
+2025-12-08 13:39:23.439 - Data for 3548 already stored in database.
+2025-12-08 13:39:23.647 - Data for 3551 already stored in database.
+2025-12-08 13:39:23.857 - Data for 3546 already stored in database.
+2025-12-08 13:39:24.068 - Data for 3549 already stored in database.
+2025-12-08 13:39:24.277 - Data for 3556 already stored in database.
+2025-12-08 13:39:24.489 - Data for 3560 already stored in database.
+2025-12-08 13:39:24.667 - Data for 3559 already stored in database.
+2025-12-08 13:39:24.848 - Data for 3558 already stored in database.
+2025-12-08 13:39:25.048 - Data for 3555 already stored in database.
+2025-12-08 13:39:25.254 - Data for 3552 already stored in database.
+2025-12-08 13:39:25.461 - Data for 3554 already stored in database.
+2025-12-08 13:39:25.671 - Data for 3561 already stored in database.
+2025-12-08 13:39:25.874 - Data for 3553 already stored in database.
+2025-12-08 13:39:26.084 - Data for 3557 already stored in database.
+2025-12-08 13:39:26.274 - Data for 3568 already stored in database.
+2025-12-08 13:39:26.452 - Data for 3569 already stored in database.
+2025-12-08 13:39:26.650 - Data for 3567 already stored in database.
+2025-12-08 13:39:26.843 - Data for 3566 already stored in database.
+2025-12-08 13:39:27.049 - Data for 3565 already stored in database.
+2025-12-08 13:39:27.254 - Data for 3570 already stored in database.
+2025-12-08 13:39:27.462 - Data for 3564 already stored in database.
+2025-12-08 13:39:27.671 - Data for 3571 already stored in database.
+2025-12-08 13:39:27.880 - Data for 3562 already stored in database.
+2025-12-08 13:39:28.090 - Data for 3563 already stored in database.
+2025-12-08 13:39:28.294 - Data for 3574 already stored in database.
+2025-12-08 13:39:28.492 - Data for 3580 already stored in database.
+2025-12-08 13:39:28.690 - Data for 3572 already stored in database.
+2025-12-08 13:39:28.904 - Data for 3576 already stored in database.
+2025-12-08 13:39:29.110 - Data for 3578 already stored in database.
+2025-12-08 13:39:29.305 - Data for 3581 already stored in database.
+2025-12-08 13:39:29.515 - Data for 3573 already stored in database.
+2025-12-08 13:39:29.708 - Data for 3577 already stored in database.
+2025-12-08 13:39:29.909 - Data for 3575 already stored in database.
+2025-12-08 13:39:30.117 - Data for 3579 already stored in database.
+2025-12-08 13:39:30.309 - Data for 3590 already stored in database.
+2025-12-08 13:39:30.501 - Data for 3591 already stored in database.
+2025-12-08 13:39:30.710 - Data for 3589 already stored in database.
+2025-12-08 13:39:30.918 - Data for 3588 already stored in database.
+2025-12-08 13:39:31.139 - Data for 3587 already stored in database.
+2025-12-08 13:39:31.265 - Data for 3584 already stored in database.
+2025-12-08 13:39:31.464 - Data for 3582 already stored in database.
+2025-12-08 13:39:31.660 - Data for 3585 already stored in database.
+2025-12-08 13:39:31.834 - Data for 3583 already stored in database.
+2025-12-08 13:39:32.028 - Data for 3586 already stored in database.
+2025-12-08 13:39:32.253 - Data for 3600 already stored in database.
+2025-12-08 13:39:32.451 - Data for 3593 already stored in database.
+2025-12-08 13:39:32.656 - Data for 3598 already stored in database.
+2025-12-08 13:39:32.861 - Data for 3592 already stored in database.
+2025-12-08 13:39:33.045 - Data for 3599 already stored in database.
+2025-12-08 13:39:33.247 - Data for 3601 already stored in database.
+2025-12-08 13:39:33.450 - Data for 3596 already stored in database.
+2025-12-08 13:39:33.649 - Data for 3595 already stored in database.
+2025-12-08 13:39:33.850 - Data for 3594 already stored in database.
+2025-12-08 13:39:34.023 - Data for 3597 already stored in database.
+2025-12-08 13:39:34.227 - Data for 3610 already stored in database.
+2025-12-08 13:39:34.426 - Data for 3609 already stored in database.
+2025-12-08 13:39:34.636 - Data for 3608 already stored in database.
+2025-12-08 13:39:34.841 - Data for 3602 already stored in database.
+2025-12-08 13:39:35.040 - Data for 3604 already stored in database.
+2025-12-08 13:39:35.250 - Data for 3605 already stored in database.
+2025-12-08 13:39:35.460 - Data for 3603 already stored in database.
+2025-12-08 13:39:35.667 - Data for 3606 already stored in database.
+2025-12-08 13:39:35.876 - Data for 3607 already stored in database.
+2025-12-08 13:39:36.088 - Data for 3611 already stored in database.
+2025-12-08 13:39:36.282 - Data for 3613 already stored in database.
+2025-12-08 13:39:36.497 - Data for 3612 already stored in database.
+2025-12-08 13:39:36.699 - Data for 3614 already stored in database.
+2025-12-08 13:39:36.901 - Data for 3621 already stored in database.
+2025-12-08 13:39:37.111 - Data for 3615 already stored in database.
+2025-12-08 13:39:37.264 - Data for 3617 already stored in database.
+2025-12-08 13:39:37.456 - Data for 3618 already stored in database.
+2025-12-08 13:39:37.664 - Data for 3619 already stored in database.
+2025-12-08 13:39:37.874 - Data for 3620 already stored in database.
+2025-12-08 13:39:38.083 - Data for 3616 already stored in database.
+2025-12-08 13:39:38.271 - Data for 3629 already stored in database.
+2025-12-08 13:39:38.449 - Data for 3630 already stored in database.
+2025-12-08 13:39:38.656 - Data for 3627 already stored in database.
+2025-12-08 13:39:38.861 - Data for 3626 already stored in database.
+2025-12-08 13:39:39.039 - Data for 3625 already stored in database.
+2025-12-08 13:39:39.232 - Data for 3624 already stored in database.
+2025-12-08 13:39:39.437 - Data for 3623 already stored in database.
+2025-12-08 13:39:39.647 - Data for 3631 already stored in database.
+2025-12-08 13:39:39.845 - Data for 3628 already stored in database.
+2025-12-08 13:39:40.016 - Data for 3622 already stored in database.
+2025-12-08 13:39:40.203 - Data for 3641 already stored in database.
+2025-12-08 13:39:40.392 - Data for 3638 already stored in database.
+2025-12-08 13:39:40.591 - Data for 3636 already stored in database.
+2025-12-08 13:39:40.794 - Data for 3632 already stored in database.
+2025-12-08 13:39:40.998 - Data for 3633 already stored in database.
+2025-12-08 13:39:41.193 - Data for 3637 already stored in database.
+2025-12-08 13:39:41.348 - Data for 3634 already stored in database.
+2025-12-08 13:39:41.499 - Data for 3639 already stored in database.
+2025-12-08 13:39:41.702 - Data for 3640 already stored in database.
+2025-12-08 13:39:41.901 - Data for 3635 already stored in database.
+2025-12-08 13:39:42.105 - Data for 3645 already stored in database.
+2025-12-08 13:39:42.308 - Data for 3644 already stored in database.
+2025-12-08 13:39:42.511 - Data for 3643 already stored in database.
+2025-12-08 13:39:42.718 - Data for 3650 already stored in database.
+2025-12-08 13:39:42.904 - Data for 3649 already stored in database.
+2025-12-08 13:39:43.114 - Data for 3648 already stored in database.
+2025-12-08 13:39:43.312 - Data for 3646 already stored in database.
+2025-12-08 13:39:43.512 - Data for 3647 already stored in database.
+2025-12-08 13:39:43.719 - Data for 3651 already stored in database.
+2025-12-08 13:39:43.926 - Data for 3642 already stored in database.
+2025-12-08 13:39:44.115 - Data for 3661 already stored in database.
+2025-12-08 13:39:44.317 - Data for 3658 already stored in database.
+2025-12-08 13:39:44.508 - Data for 3657 already stored in database.
+2025-12-08 13:39:44.714 - Data for 3656 already stored in database.
+2025-12-08 13:39:44.923 - Data for 3653 already stored in database.
+2025-12-08 13:39:45.128 - Data for 3652 already stored in database.
+2025-12-08 13:39:45.331 - Data for 3660 already stored in database.
+2025-12-08 13:39:45.538 - Data for 3659 already stored in database.
+2025-12-08 13:39:45.734 - Data for 3654 already stored in database.
+2025-12-08 13:40:17.545 - Newly stored: 0
+2025-12-08 13:40:17.546 - Not yet played matches: 1936
+2025-12-08 13:40:17.546 - Already stored: 150
+2025-12-08 13:40:17.547 - Waiting 3 sec for content ready
+2025-12-08 13:40:21.088 - HTML saved to page_actual.html
+2025-12-08 13:40:21 Storing new data into db
+newly added records: 0
+2025-12-08 13:40:21 Generate pontok.txt
+Report written to ../pontok.txt
+2025-12-08 13:40:21 Committing
+[main f790ddb] 2025-12-08 13:40:21
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+2025-12-08 13:40:21 Pushing
+To github.com:tothsandorcd/tippeldmeg.git
+   939feaf..f790ddb  main -> main
+2025-12-08 13:40:23 Execution finished
