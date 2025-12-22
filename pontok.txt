@@ -1,11 +1,11 @@
-Frissítve: 2025.12.21 20:03
+Frissítve: 2025.12.23 00:03
 
 Összesítés:
 -------------
 Totya     242
 Tommy     223
 Gabi      221
-Azolinho  216
+Azolinho  219
 Gabcsi    203
 Balu      193
 Tompinho  168
@@ -16,10 +16,10 @@ Forduló:  17
 Tommy     19
 Totya     19
 Gabcsi    16
+Azolinho  14
 Gabi      13
 Tompinho  13
 Balu      12
-Azolinho  11
 
 Forduló:  16
 ------------
