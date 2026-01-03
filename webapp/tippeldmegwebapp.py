@@ -49,7 +49,18 @@ def getStartPage():
 
    result = subprocess.run(["atq"], capture_output=True, text=True)
 
-   HTML += f"schedules: <br>{result.stdout} {result.stderr}".replace('\n', '<br>')
+   outputlines = ""
+   
+   for line in result.stdout.splitlines():
+       parts = line.split()
+       if len(parts) >= 6:
+           outputlines = outputlines + " ".join(parts[1:5]) + "<br>"
+       else:
+           outputlines = outputlines + line
+           
+
+
+   HTML += f"schedules: <br>{outputlines} {result.stderr}"
 
    HTML += """
       <br>
