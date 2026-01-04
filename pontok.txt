@@ -1,9 +1,9 @@
-Frissítve: 2026.01.04 18:18
+Frissítve: 2026.01.04 21:03
 
 Összesítés:
 -------------
 Totya     281
-Tommy     261
+Tommy     264
 Azolinho  249
 Gabi      244
 Gabcsi    237
@@ -16,8 +16,8 @@ Forduló:  20
 Totya     17
 Azolinho  16
 Balu      13
+Tommy     12
 Gabcsi     9
-Tommy      9
 Gabi       6
 Tompinho   2
 
