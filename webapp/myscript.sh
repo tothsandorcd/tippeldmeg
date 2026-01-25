@@ -15,7 +15,7 @@ echo "$(date '+%Y-%m-%d %H:%M:%S') Generate pontok.txt" | tee /tmp/myscript.log
 python3 generatepontok.py
 
 echo "$(date '+%Y-%m-%d %H:%M:%S') Committing" | tee /tmp/myscript.log
-git add ../pontok.txt result.sqlite
+git add ../pontok.html result.sqlite
 git commit -m "$(date '+%Y-%m-%d %H:%M:%S')"
 
 echo "$(date '+%Y-%m-%d %H:%M:%S') Pushing" | tee /tmp/myscript.log
