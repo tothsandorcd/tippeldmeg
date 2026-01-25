@@ -28,9 +28,10 @@ def main():
 
     # Open the output file
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
-        f.write("<html><body>")
+        f.write("<html><head>")
         f.write("""
-        <style>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <style>
           .score-table {
             border-collapse: collapse;
             font-family: Arial, sans-serif;
@@ -54,6 +55,7 @@ def main():
           
         </style>
         """)
+        f.write("</head><body>")
         
         # Write timestamp
         timestamp = datetime.now().strftime("%Y.%m.%d %H:%M")
