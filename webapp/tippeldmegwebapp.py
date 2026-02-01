@@ -33,7 +33,7 @@ def getStartPage():
         <input type="radio" name="day_option" value="Fri"> Friday<br>
         <input type="radio" name="day_option" value="Sat"> Saturday<br>
         <input type="radio" name="day_option" value="Sun"> Sunday<br><br>
-     
+
         <label>Hour (0-23):</label>
         <select name="hour">
    """
@@ -50,14 +50,13 @@ def getStartPage():
    result = subprocess.run(["atq"], capture_output=True, text=True)
 
    outputlines = ""
-   
+
    for line in result.stdout.splitlines():
        parts = line.split()
        if len(parts) >= 6:
            outputlines = outputlines + " ".join(parts[1:5]) + "<br>"
        else:
            outputlines = outputlines + line
-           
 
 
    HTML += f"schedules: <br>{outputlines} {result.stderr}"
@@ -67,7 +66,7 @@ def getStartPage():
      </body>
    </html>
    """
-   
+
    return HTML
 
 def authenticate():
@@ -96,11 +95,11 @@ def run_script():
             return f"<h2>Executed immediately:</h2><pre>{result.stdout or '(no output)'}\n{result.stderr}</pre>"
     else:
                   if day_option == "Today":
-                        result = subprocess.run([f'echo "cd /home/sasa/Documents/repo/tippeldmeg/webapp && ./myscript.sh >> myscript.log 2>&1" | at {hour}'], shell=True, capture_output=True, text=True)
+                        result = subprocess.run([f'echo "cd /home/sasa/tippeldmeg/repo/tippeldmeg/webapp && ./myscript.sh >> myscript.log 2>&1" | at {hour}'], shell=True, capture_output=True, text=True)
 #                        result = subprocess.run([f'echo "cd /home/sasa/Documents/repo/tippeldmeg/webapp && date >> myscript.log" | at {hour}'], shell=True, capture_output=True, text=True)
                         return f"<h2>Scheduled today:</h2><pre>{hour}. Result {result}\n</pre>"
                   else:
-                        result = subprocess.run([f'echo "cd /home/sasa/Documents/repo/tippeldmeg/webapp && ./myscript.sh >> myscript.log 2>&1" | at {hour} {day_option}'], shell=True, capture_output=True, text=True)
+                        result = subprocess.run([f'echo "cd /home/sasa/tippeldmeg/repo/tippeldmeg/webapp && ./myscript.sh >> myscript.log 2>&1" | at {hour} {day_option}'], shell=True, capture_output=True, text=True)
 #                        result = subprocess.run([f'echo "cd /home/sasa/Documents/repo/tippeldmeg/webapp && date >> myscript.log" | at {hour} {day_option}'], shell=True, capture_output=True, text=True)
                         return f"<h2>Scheduled:</h2><pre>{hour} {day_option}. Result {result}\n</pre>"
 
